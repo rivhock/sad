@@ -1,0 +1,20 @@
+/* Remove as setinhas de input[type=number] em todos os navegadores
+   Evita alteração acidental de notas no sistema SAD */
+
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+/* Ao focar, mantém visual limpo sem scroll */
+input[type="number"]:focus {
+    outline: none;
+}

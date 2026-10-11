@@ -1,0 +1,77 @@
+# ============================================================
+# LARAVEL — padrão
+# ============================================================
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# ============================================================
+# AMBIENTE — nunca subir (contém senhas)
+# ============================================================
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# SEGURANÇA
+# ============================================================
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ============================================================
+# LOGS E CACHE
+# ============================================================
+storage/logs/*.log
+storage/app/public/*
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
+/bootstrap/cache/*.php
+!/bootstrap/cache/.gitignore
+
+# ============================================================
+# BACKUPS E COMPACTADOS
+# ============================================================
+*.sql.gz
+*.tar.gz
+*.zip
+*.bak
+*sad-backup*
+/backups
+
+# ============================================================
+# SCRIPTS UTILITÁRIOS (na raiz)
+# ============================================================
+/*.sh
+/*.php
+!/artisan
+
+scripts-dev/
+scripts-instalacao/
+scripts/
+
+# ============================================================
+# EXCEÇÕES
+# ============================================================
+!storage/app/public/.gitignore
+!storage/framework/cache/data/.gitignore
+!storage/framework/sessions/.gitignore
+!storage/framework/views/.gitignore
+!storage/logs/.gitignore
