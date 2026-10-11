@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>@yield('titulo', 'SAD Campo Bom')</title>
+<title>@yield('titulo', 'SAD ')</title>
 </head>
 <body style="margin:0;padding:0;background:#f3f4f6;font-family:Arial,Helvetica,sans-serif;color:#222;">
 <table width="100%" cellpadding="0" cellspacing="0" style="background:#f3f4f6;padding:30px 0;">
@@ -21,7 +21,7 @@
     </tr>
     <tr>
         <td style="background:#f9fafb;padding:16px 30px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:11px;text-align:center;">
-            Prefeitura Municipal de Campo Bom / RS<br>
+            Nome da Instituição <br>
             Este é um email automático — não responda.
         </td>
     </tr>
