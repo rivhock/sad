@@ -10,7 +10,7 @@
         <div class="text-5xl mb-4">⏰</div>
         <h1 class="text-2xl font-bold text-gray-900 mb-2">Link expirado</h1>
         <p class="text-gray-600 mb-6">Este link expirou. Solicite um novo à COMPAQ.</p>
-        <div class="text-xs text-gray-500">SAD Campo Bom — Prefeitura Municipal de Campo Bom / RS</div>
+        <div class="text-xs text-gray-500">SAD  / RS</div>
     </div>
 </body>
 </html>
