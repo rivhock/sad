@@ -141,7 +141,7 @@
         </form>
 
         <div class="text-center text-xs text-gray-500 py-8">
-            <p>SAD Campo Bom — Prefeitura Municipal de Campo Bom / RS</p>
+            <p>SAD  / RS</p>
         </div>
     </div>
 </body>
