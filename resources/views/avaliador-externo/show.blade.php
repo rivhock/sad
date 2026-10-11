@@ -173,7 +173,7 @@
 
         {{-- Rodapé --}}
         <div class="text-center text-xs text-gray-500 py-8">
-            <p>SAD Campo Bom — Prefeitura Municipal de Campo Bom / RS</p>
+            <p>SAD </p>
             <p class="mt-1">Este link é pessoal e intransferível.</p>
         </div>
     </div>
